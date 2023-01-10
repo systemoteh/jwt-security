@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: "/"
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+auth:
+  login:
+    username: username
+    password: password
+jwt:
+  token:
+    secret: super-puper-secret-word
+    expired: 3600000
